@@ -16,3 +16,9 @@ Einfache Vue.js-Webanwendung mit Login-Authentifizierung über Cloudflare Worker
 - Cloudflare Workers (Backend)
 - Cloudflare D1 (Datenbank)
 - Wrangler (CLI für Cloudflare-Projekte)
+
+## Einrichten
+- Erstellen einer D1 Datenbank  npx wrangler d1 create <dbname>
+- Die erzeugten D1 Settings in die Datei wrangler.jsonc hinterlegen
+- Migration npx wrangler d1 migrations apply <dbname>
+
