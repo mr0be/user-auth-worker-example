@@ -20,7 +20,7 @@ async function login() {
   })
 
   if (res.ok) {
-    router.push('/about')
+    router.push('/')
   } else {
     errorMessage.value = "Benutzername oder Passwort ist falsch."
   }
